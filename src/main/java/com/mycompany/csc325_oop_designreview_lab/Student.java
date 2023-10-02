@@ -12,7 +12,7 @@ package com.mycompany.csc325_oop_designreview_lab;
 
 //
 // extended person and implemented human to make this class a child of person and human
-public class Student extends Person implements Human {
+public class Student extends Person implements Human{
 
 
 	// ToDo 2: Fix the resulting errors

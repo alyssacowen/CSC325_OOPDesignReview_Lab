@@ -13,11 +13,17 @@ package com.mycompany.csc325_oop_designreview_lab;
 //
 // extended person and implemented human to make this class a child of person and human
 public class Student extends Person implements Human{
-
+    private double gpa; //field for gpa
 
 	// ToDo 2: Fix the resulting errors
 
-	// ToDo 3: Add a field for GPA and create setter and getter
+    //setter and getter for GPA
+	public void setGPA(){
+        this.gpa = gpa;
+    }
+    public double getGPA(double gpa){
+        return gpa;
+    }
 	
 	// ToDo 4: Add comments to your code
 }

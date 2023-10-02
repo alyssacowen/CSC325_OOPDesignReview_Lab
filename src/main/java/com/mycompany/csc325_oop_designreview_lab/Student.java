@@ -8,9 +8,12 @@ package com.mycompany.csc325_oop_designreview_lab;
  *
  * @author MoaathAlrajab
  */
-public class Student {
-	// ToDo 1: Make this class a child of Person
-	// ToDo 1: Make this class a child of Human
+
+
+//
+// extended person and implemented human to make this class a child of person and human
+public class Student extends Person implements Human {
+
 
 	// ToDo 2: Fix the resulting errors
 

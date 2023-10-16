@@ -44,7 +44,7 @@ public class MainClass {
 		// ToDo 9: add comments and explain your code
 		// ToDo 12: add comments and explain your code
 
-		// ToDo 10: submit using a pull request.
+		// ToDo 10: submit using a pull request
 		// ToDo 13: submit using a pull request
 	}
 

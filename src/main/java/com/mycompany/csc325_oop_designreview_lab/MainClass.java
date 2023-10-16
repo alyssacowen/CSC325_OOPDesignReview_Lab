@@ -26,7 +26,7 @@ public class MainClass {
 
 		// ToDo 8: Set the gpa of the student using the scanner and user
 		// ToDo 11: Set the gpa of the student using the scanner and user
-		// 			input and then print the output.
+		// 			input and then print the output
  Scanner sc = new Scanner(System.in);
 	 System.out.println("What is your GPA?");
 	 int GPA = sc.nextInt();

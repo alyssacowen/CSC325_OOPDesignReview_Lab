@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.csc325_oop_designreview_lab;
-
+import java.util.*;
 public class MainClass {
 
  public static void main(String[] args) {
@@ -17,20 +17,29 @@ public class MainClass {
 		// ToDo 7: Add a toString method for Student class
 		// ToDo 9: Add a toString method for com.mycompany.csc325_oop_designreview_lab.Freshman class
 
-	 Student std1 = new Student("James", 20);
+
 	 // ToDo 10: Add a toString method for Senior class
+	 Student std1= new Student("James", 20);
+		Freshman std2= new Freshman("James", 20, 12); // name, age, credits
 
-		Freshman std1= new Student("James", 20, 12); // name, age, credits
-
-                Senior std2 = new Student("John", 30, 90);
+                Senior std3 = new Senior("John", 30, 90);
 
 		// ToDo 8: Set the gpa of the student using the scanner and user
 		// ToDo 11: Set the gpa of the student using the scanner and user
 		// 			input and then print the output.
+ Scanner sc = new Scanner(System.in);
+	 System.out.println("What is your GPA?");
+	 int GPA = sc.nextInt();
+		std1.setGPA(GPA);
 
-		System.out.println(std1);
+	 System.out.println("What is your GPA?");
+	 int GPA2 = sc.nextInt();
+	 std2.setGPA(GPA);
+	 System.out.println(std1);
 
-                System.out.println(std2);
+	 System.out.println(std2);
+
+	 System.out.println(std3);
 
 		// ToDo 9: add comments and explain your code
 		// ToDo 12: add comments and explain your code
